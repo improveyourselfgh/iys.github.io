@@ -64,7 +64,7 @@ function animateText() {
 if (currentCharIndex < text.length) {
   animatedText.textContent += text[currentCharIndex];
   currentCharIndex++;
-  setTimeout(animateText, 5); // Her harf arasındaki bekleme süresi
+  setTimeout(animateText, 20); // Her harf arasındaki bekleme süresi
 } else {
   animatedText.classList.add("animated");
 }
