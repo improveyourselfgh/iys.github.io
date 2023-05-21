@@ -21,7 +21,7 @@ canvas#c {
 h1 {
 	position: absolute;
 	transform: translate(0%, 0%);
-	color: rgb(44, 155, 44);
+	color: green;
 	font: bold 111% Consolas, Monaco, monospace;
 	display: flex;
 	justify-content: flex-start;
@@ -29,7 +29,7 @@ h1 {
 	overflow: hidden;
 }
 
-@keyframes typing {
+/* @keyframes typing {
 	from {
 		width: 0;
 	}
@@ -50,26 +50,26 @@ h1 {
 		border-color: green;
 	}
 }
-
+ */
 
 @media (max-width: 320px) {
 	h1 {
-		font-size: 14px;
-		margin: 2em 2em;
+		font-size: 18px;
+		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 321px) and (max-width: 425px) {
 	h1 {
-		font-size: 16px;
-		margin: 2em 2em;
+		font-size: 18px;
+		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 426px) and (max-width: 549px) {
 	h1 {
 		font-size: 20px;
-		margin: 2em 2em;
+		margin: 3em 2em;
 	}
 }
 
@@ -77,28 +77,28 @@ h1 {
 @media (min-width: 550px) and (max-width: 768px) {
 	h1 {
 		font-size: 24px;
-		margin: 2em 2em;
+		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
 	h1 {
 		font-size: 28px;
-		margin: 2em 2em;
+		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
 	h1 {
 		font-size: 30px;
-		margin: 2em 2em;
+		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 1441px){
 	h1 {
 		font-size: 35px;
-		margin: 2em 2em;
+		margin: 3em 2em;
 	}
 }
 

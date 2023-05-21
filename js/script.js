@@ -36,7 +36,7 @@ function rain() {
   }
 }
 ctx.fillRect(0, 0, c.width, c.height);
-ctx.font = "15px 'Press Start 2P'";
+ctx.font = "8px 'Press Start 2P'";
 
 function drawMatrix() {
   ctx.fillStyle = "rgba(0, 0, 0, 1)";
@@ -55,7 +55,7 @@ function drawMatrix() {
 timer = setInterval(drawMatrix, 100);
 
 const text =
-"BİZ KİMİZ: Kendini geliştirmek isteyen, eğitim ve disiplin konularında kendine yatırım yapmak isteyen insanlar için ilham verici bir kaynak sunan, markalaşma hedefi olan bir Instagram sayfasıyız.\n\nAMACIMIZ: Takipçilerimizin hayatlarını daha iyi hale getirmelerine yardımcı olmak ve onları finansal özgürlük, motivasyon ve disiplin konularında desteklemek. \n\nMİSYONUMUZ: Matrixten kaçmak isteyen kişilerin yaşamlarında gerçek anlam ve amaç bulmalarına yardımcı olmak için kaliteli içerikler sunmak. \n\nVİZYONUMUZ: Instagram sayfamız aracılığıyla dünya genelinde milyonlarca kişiye ilham vermek ve onları kendilerini geliştirmeye yönlendirmek. \n\nFollow The White Rabbit..";
+"BİZ KİMİZ: Kendini geliştirmek isteyen, eğitim ve disiplin konularında kendine yatırım yapmak isteyen insanlar için ilham verici bir kaynak sunan, markalaşma hedefi olan bir Instagram sayfasıyız.\n\nAMACIMIZ: Takipçilerimizin hayatlarını daha iyi hale getirmelerine yardımcı olmak ve onları finansal özgürlük, motivasyon ve disiplin konularında yol göstermek. \n\nMİSYONUMUZ: Matrixten kaçmak isteyen kişilerin yaşamlarında gerçek anlam ve amaç bulmalarına yardımcı olmak için kaliteli içerik ve ürünler sunmak. \n\nVİZYONUMUZ: Instagram sayfamız aracılığıyla dünya genelinde milyonlarca kişiye ilham vermek ve onları kendilerini geliştirmeye yönlendirmek. \n\nFollow The White Rabbit..";
 
 const animatedText = document.getElementById("animated-text");
 let currentCharIndex = 0;
