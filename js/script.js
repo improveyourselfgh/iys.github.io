@@ -85,9 +85,9 @@ window.addEventListener('load', function() {
   }
 
   function handleScroll() {
-    if (container.scrollTop === 0) {
+    if (container.scrollTop === 0 || container.scrollTop === scrollHeight) {
       isScrollingUp = true;
-    } else if (container.scrollTop === scrollHeight) {
+    } else {
       isScrollingUp = false;
     }
   }
