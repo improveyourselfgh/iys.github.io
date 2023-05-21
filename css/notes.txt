@@ -1,0 +1,22 @@
+notest
+			// var title = document.getElementById("mainTextHeader");
+			// var metin = "BİZ KİMİZ: Kendini geliştirmek isteyen, eğitim ve disiplin konularında kendine yatırım yapmak isteyen insanlar için ilham verici bir kaynak sunan, markalaşma hedefi olan bir Instagram sayfasıyız.\n\nAMACIMIZ: Takipçilerimizin hayatlarını daha iyi hale getirmelerine yardımcı olmak ve onları finansal özgürlük, motivasyon ve disiplin konularında desteklemek. \n\nMİSYONUMUZ: Matrixten kaçmak isteyen kişilerin yaşamlarında gerçek anlam ve amaç bulmalarına yardımcı olmak için kaliteli içerikler sunmak. \n\nVİZYONUMUZ: Instagram sayfamız aracılığıyla dünya genelinde milyonlarca kişiye ilham vermek ve onları kendilerini geliştirmeye yönlendirmek. \n\n\nFollow The White Rabit..";
+
+			// // \n karakteri ile iki cümleyi ayırıyoruz
+			// var cumleler = metin.split('\n'); // metni \n karakterine göre ikiye bölüyoruz
+			// var i = 0;
+			// var j = 0;
+			// var timer = setInterval(function () {
+			// 	if (i < cumleler.length) {
+			// 		if (j < cumleler[i].length) {
+			// 			title.innerHTML += cumleler[i].charAt(j);
+			// 			j++;
+			// 		} else {
+			// 			i++;
+			// 			j = 0;
+			// 			title.innerHTML += '<br>';
+			// 		}
+			// 	} else {
+			// 		clearInterval(timer);
+			// 	}
+			// }, 25000 / metin.length);
