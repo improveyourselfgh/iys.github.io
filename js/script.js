@@ -55,7 +55,7 @@ function drawMatrix() {
 timer = setInterval(drawMatrix, 100);
 
 const text =
-"BİZ KİMİZ: Kendini geliştirmek isteyen, eğitim ve disiplin konularında kendine yatırım yapmak isteyen insanlar için ilham verici bir kaynak sunan, markalaşma hedefi olan bir Instagram sayfasıyız.\n\nAMACIMIZ: Takipçilerimizin hayatlarını daha iyi hale getirmelerine yardımcı olmak ve onları finansal özgürlük, motivasyon ve disiplin konularında yol göstermek. \n\nMİSYONUMUZ: Matrixten kaçmak isteyen kişilerin yaşamlarında gerçek anlam ve amaç bulmalarına yardımcı olmak için kaliteli içerik ve ürünler sunmak. \n\nVİZYONUMUZ: Instagram sayfamız aracılığıyla dünya genelinde milyonlarca kişiye ilham vermek ve onları kendilerini geliştirmeye yönlendirmek. \n\nFollow The White Rabbit..";
+"BİZ KİMİZ: Biz, markalaşma hedefi olan bir Instagram sayfası olarak, kendini geliştirmek isteyen ve eğitim ile disiplin konularında yatırım yapmak isteyen insanlara ilham verici bir kaynak sunmayı amaçlayan dinamik bir topluluğuz. Kendi potansiyellerini keşfetmeye istekli olan herkesi bir araya getirerek, karşılıklı destek ve paylaşım ortamı sağlamaktayız.\n\nAMACIMIZ: Takipçilerimizin hayatlarını daha iyi hale getirmelerine yardımcı olmak ve onları finansal özgürlük, motivasyon ve disiplin konularında yönlendirmektir. Kendilerini geliştirmeye adanmış bir ekip olarak, takipçilerimizin hedeflerine ulaşmalarına katkıda bulunmak ve olumlu değişimler yaratmak için çabalıyoruz.\n\nMİSYONUMUZ: Matrix'ten kaçmak isteyen bireylerin yaşamlarında gerçek anlam ve amacı bulmalarına yardımcı olmak için kaliteli içerikler ve ürünler sunmayı misyon edindik. İçeriklerimiz, motivasyon, kişisel finans, liderlik, sağlıklı yaşam, yaratıcılık ve daha birçok konuda geniş bir yelpazeyi kapsamaktadır. Takipçilerimize ilham vermek, bilinçlerini genişletmek ve kendilerini geliştirme yolculuklarında rehberlik etmek amacıyla sürekli olarak yeni içerikler üretmeye odaklanıyoruz.\n\nVİZYONUMUZ: Instagram sayfamız aracılığıyla, dünya genelinde milyonlarca kişiye ilham vermek ve onları kendilerini geliştirmeye yönlendirmek istiyoruz. Sadece bir topluluk olmakla kalmayıp, bir hareketin parçası olmayı hedefliyoruz. İnsanların hayatlarına dokunarak, pozitif bir etki yaratmak ve bireylerin gerçek potansiyellerini keşfetmelerine yardımcı olmak istiyoruz. \n\nFollow The White Rabbit... Bizimle birlikte, sınırları aşın ve kendinizi keşfedin!\n"
 
 const animatedText = document.getElementById("animated-text");
 let currentCharIndex = 0;
@@ -71,3 +71,28 @@ if (currentCharIndex < text.length) {
 }
 
 animateText();
+
+window.addEventListener('load', function() {
+  var container = document.getElementById('container');
+  var scrollHeight = container.scrollHeight;
+  var isScrollingUp = false;
+
+  function autoScroll() {
+    if (!isScrollingUp && container.scrollTop < scrollHeight) {
+      container.scrollTop += 2; // İstediğiniz hızda kaydırma yapabilirsiniz
+      setTimeout(autoScroll, 2); // İstediğiniz zaman aralığını belirleyebilirsiniz
+    }
+  }
+
+  function handleScroll() {
+    if (container.scrollTop === 0) {
+      isScrollingUp = true;
+    } else if (container.scrollTop === scrollHeight) {
+      isScrollingUp = false;
+    }
+  }
+
+  container.addEventListener('scroll', handleScroll);
+  autoScroll();
+});
+
