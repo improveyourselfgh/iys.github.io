@@ -58,21 +58,21 @@ h1 {
 
 @media (max-width: 320px) {
 	h1 {
-		font-size: 18px;
+		font-size: 10px;
 		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 321px) and (max-width: 425px) {
 	h1 {
-		font-size: 18px;
+		font-size: 11px;
 		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 426px) and (max-width: 549px) {
 	h1 {
-		font-size: 20px;
+		font-size: 12px;
 		margin: 3em 2em;
 	}
 }
@@ -80,28 +80,28 @@ h1 {
 
 @media (min-width: 550px) and (max-width: 768px) {
 	h1 {
-		font-size: 24px;
+		font-size: 22px;
 		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
 	h1 {
-		font-size: 28px;
+		font-size: 24px;
 		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
 	h1 {
-		font-size: 30px;
+		font-size: 26px;
 		margin: 3em 2em;
 	}
 }
 
 @media (min-width: 1441px){
 	h1 {
-		font-size: 35px;
+		font-size: 30px;
 		margin: 3em 2em;
 	}
 }
